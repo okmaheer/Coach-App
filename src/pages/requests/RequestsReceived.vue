@@ -1,3 +1,0 @@
-<template>
-Request received
-</template>
