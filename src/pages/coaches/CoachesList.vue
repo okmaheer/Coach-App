@@ -5,7 +5,7 @@
       <div class="controls">
         <base-button mode="outline" link to="/register">Refresh</base-button>
         <base-button v-if="!isCoach" link to="/register">Register as Coach</base-button>
-      </div>
+      </div> 
       <ul v-if="hasCoaches">
         <Coach-Item
           v-for="coach in filteredCoaches"
